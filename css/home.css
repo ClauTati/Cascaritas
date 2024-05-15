@@ -1,0 +1,124 @@
+:root{
+    /*Configuración de variables de colores #f6f5e9;*/ 
+    --primary-color:#cf7c36;
+    --secondary-color:#653c24;
+    --third-color:#ddba9b;
+    --third-bis-color: #1ea139;
+    /*colores de fondo*/
+    --bg-color:#f6f5e9;
+    --bg-input-color:#3920402c;
+    /*fuente primaria*/
+    --primary-font: Arial, sans-serif;
+}
+
+body, html{
+    font-family: var(--primary-color);
+    margin: 0;
+    padding: 0;
+    /*Se adapta al alto de la pantalla*/
+    height: 100vh;
+}
+
+header{
+    background-color: var(--primary-color);
+    /*Tamaño dado a lo que tiene adentro espacio de la caja hacia afuera*/
+    padding:2vh 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+nav ul{
+    list-style: none;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;/*conseva propiedades de linea */
+}
+
+/* Pseudoclases es un selector que marca los elementos que están en un estado 
+  específico first-child: significa primer hijo */
+
+nav ul li:first-child{
+    margin-left: 0;
+}
+nav ul li:last-child{
+    margin-right: 2vw;
+}
+/*Trabajamos com etiquetaas clickeables*/
+nav ul li a, nav>a{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;/*anula decoración*/
+    color: var(--secondary-color);
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover{
+    background-color: var(--bg-input-color);
+}
+
+/*sección de productos */
+
+
+.contenedor-tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.contenedor-tarjetas .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 30px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.contenedor-tarjetas .card:hover{
+    cursor: auto;
+    transform: scale(1.05) ;
+    transition: all 1s ease;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.contenedor-tarjetas .card img{
+    width: 330px;
+    height: 220px;
+}
+
+.contenedor-tarjetas .card h3{
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+.contenedor-tarjetas .card {
+    padding:  10px 10px;
+
+
+}
+
+.contenedor-tarjetas .card a{
+    font-weight:bold;
+    text-decoration: none;
+    color:var(--third-bis-color);
+}
+
+
+
+
+
+
