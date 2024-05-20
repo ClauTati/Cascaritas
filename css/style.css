@@ -1,6 +1,5 @@
 html, body{
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
     color:#ff9d00;
 }
 
@@ -36,8 +35,10 @@ img{
 
 .banner_content h1{
     font-size: 9rem;
-    font-family: "Amatic SC", sans-serif;
-    font-weight: bold;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 500;
+    font-style:italic;
+
     
 }
 
@@ -63,17 +64,17 @@ h1{
 
 .banner_content h2{
     font-size: 3rem;
-    font-weight: lighter;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight:lighter;
 
 }
 
 .banner_button{
     display: inline-block;
-    background-color: #93c572;
+    background-color: #ac5e0f;
     padding: 15px 50px;
-    border: 3px solid #ff9d00;
     border-radius: 5px;
-    color: #804000;
+    color: #f6f5e9;
     font-size: 2rem;
     text-decoration: none;
 }
