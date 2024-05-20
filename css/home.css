@@ -15,6 +15,7 @@ body, html{
     font-family: var(--primary-color);
     margin: 0;
     padding: 0;
+    background-color: var(--bg-color);
     /*Se adapta al alto de la pantalla*/
     height: 100vh;
 }
@@ -83,7 +84,7 @@ nav ul li a:hover{
 .button-search{
     background-color: var(--primary-color);
     padding: 5px 25px;
-    border:3px solid #FFA500;
+    border:2px solid var(--third-color);
     border-radius: 10px;
     color: #804000;
     font-weight:bold;
@@ -91,7 +92,7 @@ nav ul li a:hover{
 }
 
 
-/*sección de productos */
+/*Sección de productos */
 
 
 .contenedor-tarjetas{
@@ -105,6 +106,7 @@ nav ul li a:hover{
     width: 330px;
     height: 430px;
     border-radius: 10px;
+    border: 3px solid #FFA500;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     margin: 30px;
@@ -122,6 +124,7 @@ nav ul li a:hover{
 .contenedor-tarjetas .card img{
     width: 330px;
     height: 320px;
+    box-shadow: 0 10px 14px rgba(0, 0, 0, 0.2);
 }
 
 .contenedor-tarjetas .card h3{

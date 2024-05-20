@@ -1,7 +1,7 @@
 html, body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    color: #983E07;
+    color:#ff9d00;
 }
 
 .header_logo{
@@ -69,10 +69,11 @@ h1{
 
 .banner_button{
     display: inline-block;
-    background-color:brown;
-    padding: 20px 30px;
+    background-color: #93c572;
+    padding: 15px 50px;
+    border: 3px solid #ff9d00;
     border-radius: 5px;
-    color: bisque;
+    color: #804000;
     font-size: 2rem;
     text-decoration: none;
 }
