@@ -174,82 +174,83 @@ nav ul li a:hover{
 
 /* css a nosotros */
  /*== aplicando css al titulo ==*/
- #titulo {
-     font-size: 3rem;
-     text-align: center;
-     padding: 30PX;
-     margin: auto;
+#titulo {
+    font-size: 3rem;
+    text-align: center;
+    padding: 30PX;
+    margin: auto;
 
- }
+}
 
  /*== aplicando css al primer subtitulo(quenes somos)==*/
- #quienesSomos {
-     display: grid;
-     grid-template-columns: repeat(2, 1fr);
-     font-size: 1.8rem;
-     align-items: center;
-     padding: 10px;
+#quienesSomos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 1.8rem;
+    align-items: center;
+    padding: 10px;
 
- }
+}
 
- section#quienesSomos article {
-     width: 90%;
+section#quienesSomos article {
+    width: 90%;
 
- }
+}
 
- #sibtitulo-1 {
-     text-align: center;
+#sibtitulo-1 {
+    text-align: center;
 
- }
+}
 
- /*== aplicando css al segundo subtitulo(¿porque elegirnos?)==*/
- #PorQueElegirnos {
-     display: grid;
-     grid-template-columns: repeat(2, 1fr);
-     font-size: 1.8rem;
-     align-items: center;
-     padding: 2px;
-     text-align: center;
- }
+/*== aplicando css al segundo subtitulo(¿porque elegirnos?)==*/
+#PorQueElegirnos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 1.8rem;
+    align-items: center;
+    padding: 2px;
+    text-align: center;
+}
 
- #subtitulo-2 {
-     text-align: center;
+#subtitulo-2 {
+    text-align: center;
 
- }
-
-
-
- /*== aplicando css a ultimas noticias==*/
+} 
 
 
- #UltimasNoticias {
-     display: grid;
-     grid-template-columns: 1fr 1fr;
-     font-size: 2rem;
-     text-align: center;
-     padding: 10px;
- }
+
+/*== aplicando css a ultimas noticias==*/
 
 
- section#UltimasNoticias article {
-     padding: 40px;
- }
+#UltimasNoticias {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+}
 
 
- #noticias {
-     text-align: center;
-     font-size: 3rem;
- }
- .foto{
+section#UltimasNoticias article {
+    padding: 40px;
+}
+
+#noticias {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.foto{
     width: 100vh;
     height: 70vh;
- }
- .texto{
+}
+
+.texto{
     padding-top: 10%;
- }
+}
 
  /* responsive a nosotros */
- @media only screen and (max-width:600px){
+@media only screen and (max-width:600px){
     .foto{
         width: 40vh;
         height: 40vh;
@@ -258,15 +259,15 @@ nav ul li a:hover{
         width: 1%;
         height: 1%;
     }
-     #quienesSomos{
+    #quienesSomos{
         
         display: flex;
         align-items: center;
         
-     }   
- }
+    }   
+}
 
- 
+
 
 
 
