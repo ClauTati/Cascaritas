@@ -8,7 +8,7 @@
     --bg-color:#f6f5e9;
     --bg-input-color:#3920402c;
     /*fuente primaria*/
-    --primary-font: Arial, sans-serif;
+    --primary-font: "Alegreya Sans", sans-serif;
 }
 
 body, html{
@@ -147,17 +147,50 @@ nav ul li a:hover{
 /* css a formulario */
 #formularioContacto {
     background-color: rgba(234, 162, 46, 0.8);
-    padding: 20px;
-    padding-top: 50px;
-    width: 30%;
-    font-size: 1.4rem;
-    color: white;
-}
+    padding: 10px;
+    width: 25vw;
+    height: 75vh;
+    color: var(--secondary-color)
 
-.destacado {
-    padding: 2px;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    color:var(--secondary-color)
     
 }
+
+.destacado{
+    position: relative;
+    padding: 5px 55px;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+#nombre, #apellido, #email, #comentario{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px 80px;
+    
+}
+.form-terms{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+
+.bnt-info{
+    padding: 10px 30px;
+    font-size: 16px;
+    margin-top: 8px;
+    background-color: var(--primary-color);
+    border: 3px solid #804000;
+    color: var(--secondary-color);
+    margin-left: 10rem;   
+    
+}
+
 @media only screen and (max-width:600px){
     #formularioContacto{
         /* background-color: rgba(78, 9, 9, 0.8); */
@@ -252,7 +285,7 @@ section#UltimasNoticias article {
  /* responsive a nosotros */
 @media only screen and (max-width:600px){
     .foto{
-        width: 40vh;
+        width:40vw;
         height: 40vh;
     }
     .texto{
